@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crédito Consig</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('logo.png'); /* Imagem da logo como fundo */
+            background-size: cover; /* Faz a imagem cobrir todo o fundo */
+            background-position: center; /* Centraliza a imagem */
+            color: #fff; /* Cor do texto */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Altura total da tela */
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin: 10px 0;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+
+        .background-image {
+            width: 150px; /* Ajuste a largura conforme necessário */
+            height: 150px; /* Altura fixa para criar formato redondo */
+            border-radius: 50%; /* Bordas arredondadas para formato circular */
+            object-fit: cover; /* Cobre o elemento mantendo a proporção */
+            margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+            border: 5px solid #fff; /* Borda branca ao redor da imagem */
+        }
+
+        .highlight {
+            font-size: 1.5em; /* Aumenta o tamanho da fonte */
+            font-weight: bold; /* Negrito */
+            margin-bottom: 20px; /* Espaçamento abaixo do texto */
+            color: #28a745; /* Cor verde para destaque */
+        }
+
+        .cta-button {
+            padding: 10px 20px;
+            background-color: #28a745; /* Cor do botão */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px; /* Cantos arredondados */
+            font-weight: bold;
+        }
+
+        .cta-button:hover {
+            background-color: #218838; /* Cor do botão ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="background.jpg" alt="Imagem de fundo" class="background-image"> <!-- Imagem de fundo na parte superior -->
+        <h1>Crédito Consig</h1>
+        <p>Atendimento: (63) 98433-0072</p>
+    </header>
+    <main>
+        <p class="highlight">Digite 1 para simular</p> <!-- Frase em destaque -->
+        <a href="https://api.whatsapp.com/send?phone=63984330072" class="cta-button">Fale Conosco no WhatsApp</a>
+    </main>
+</body>
+</html>
